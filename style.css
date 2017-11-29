@@ -1,12 +1,13 @@
-
 html,
 body {
     height: 100%;
 }
-img{
+
+img {
     max-height: 100vh;
     object-fit: cover;
 }
+
 
 /*Cover*/
 
@@ -24,42 +25,44 @@ img{
     width: 100%;
 }
 
-.col-sm-10 {
+.col-m-10 {
     margin: 0 auto;
     padding: 2rem;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .carousel-item img {
     object-fit: cover;
-    height: calc(100vh - 55.7px) ;
+    height: calc(100vh - 55.7px);
 }
-.card img{
+
+.card img {
     width: 100%;
 }
-.carousel-caption h1{
+
+.carousel-caption h2 {
     padding: 1rem;
-    background: rgba(0,0,0,0.5);
-    
+    background: rgba(0, 0, 0, 0.5);
 }
-.section-content{
+
+.section-content {
     padding: 5rem 0;
 }
 
-#about{
+#about {
     background: url(img/woman-690036_1920.jpg) center center no-repeat;
     background-size: cover;
 }
-.about-text{
-    background: rgba(0,0,0 ,0.7);
+
+.about-text {
+    background: rgba(0, 0, 0, 0.7);
     color: white;
     padding: 1.875rem;
-    
 }
-#footer-main{
+
+#footer-main {
     background: #222;
     color: white;
     font-size: 1rem;
     padding: 2.5rem 0;
-    
 }
